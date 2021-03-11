@@ -130,3 +130,46 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
+
+/* Media below 640 */
+@media screen and (max-width: 640px) {
+  .personal__details {
+    margin: 10% 4% 30px 4%;
+    display: block;
+  }
+
+  .profile__picture {
+    width: 100%;
+  }
+
+  .profile__details {
+    width: 100%;
+  }
+
+  .profile__picture img {
+    padding: 22px 15px 15px 15px;
+    width: 100%;
+    border-radius: var(--border-radius);
+  }
+
+  .names__contatcs {
+    display: block;
+    padding: 0 15px 41px 15px;
+  }
+
+  .user__name h2 {
+    padding: 0 0 8px 0;
+  }
+
+  .user__name h4 {
+    padding-bottom: 31px;
+  }
+
+  .user__contacts h4 {
+    padding-bottom: 10px;
+  }
+
+  .profile__description {
+    padding: 0 15px 22px 15px;
+  }
+}
