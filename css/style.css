@@ -49,6 +49,28 @@ body {
   width: 75%;
 }
 
+@media screen and (max-width: 900px) {
+  .profile__picture {
+    width: 30%;
+  }
+
+  .profile__details {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .personal__details {
+    margin: 10% 5% 43px 5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .personal__details {
+    margin: 10% 1% 43px 1%;
+  }
+}
+
 .profile__picture img {
   padding: 22px 0 41px 15px;
   width: 100%;
@@ -61,7 +83,10 @@ body {
   display: flex;
   position: relative;
   justify-content: space-between;
-  /* align-items: center; */
+}
+
+.user__name {
+  padding-right: 8px;
 }
 
 .user__name h2 {
@@ -73,6 +98,7 @@ body {
   color: var(--gray__head__color);
   padding-bottom: 6px;
 }
+
 .user__name h4 {
   font-family: var(--font-Montserrat);
   font-style: normal;
