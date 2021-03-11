@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #f2f2f2;
+  --white: #fff;
+  --gray__head__color: #4f4f4f;
+  --gray__paragraph_color: #828282;
+  --blue__color: #2f80ed;
+  --black__two: #333333;
+  --black__one: #000000;
+
+  --border-radius: 12px;
+
+  --font-Montserrat: 'Montserrat', sans-serif;
+}
+
+/* Code for material icons */
+
+.material-icons.md-18 {
+  font-size: 18px;
+  color: var(--gray__head__color);
+  padding-right: 14px;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* Personal details section */
+
+.personal__details {
+  background-color: var(--white);
+  margin: 10% 10% 43px 10%;
+  display: flex;
+  border-radius: var(--border-radius);
+}
+
+.profile__picture {
+  width: 25%;
+}
+
+.profile__details {
+  width: 75%;
+}
+
+.profile__picture img {
+  padding: 22px 0 41px 15px;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.names__contatcs {
+  display: flex;
+  padding: 22px 15px 41px 15px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.user__name h2 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--gray__head__color);
+  padding-bottom: 6px;
+}
+.user__name h4 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--gray__paragraph_color);
+}
+
+.user__contacts h4 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--gray__head__color);
+  padding-bottom: 6px;
+  white-space: nowrap;
+}
+
+.profile__description {
+  padding: 0 15px 85px 15px;
+}
+
+.profile__description p {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
