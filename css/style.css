@@ -14,6 +14,7 @@
   --blue__color: #2f80ed;
   --black__two: #333333;
   --black__one: #000000;
+  --back__progress: #c4c4c4;
 
   --border-radius: 12px;
 
@@ -36,7 +37,7 @@ body {
 
 .personal__details {
   background-color: var(--white);
-  margin: 10% 10% 43px 10%;
+  margin: 10% 10% 42px 10%;
   display: flex;
   border-radius: var(--border-radius);
 }
@@ -172,4 +173,101 @@ body {
   .profile__description {
     padding: 0 15px 22px 15px;
   }
+}
+
+/* Centre section */
+
+.centre__container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.left__container {
+  width: 35%;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+}
+
+.skill__set {
+  margin-bottom: 10px;
+}
+
+.skill__set h3 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--gray__head__color);
+  padding: 23px 0 17px 5%;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.titles {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.prog {
+  width: 60%;
+  padding-right: 5%;
+}
+
+.language h4 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray__head__color);
+  text-transform: capitalize;
+}
+
+.react__back {
+  width: 100%;
+  background-color: var(--back__progress);
+  border-radius: 12px;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  background-color: var(--blue__color);
+  height: 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 95%;
+}
+
+.javascript {
+  width: 90%;
+}
+
+.react__lib {
+  width: 83%;
+}
+
+.express {
+  width: 80%;
+}
+
+.node {
+  width: 75%;
+}
+
+.mongodb {
+  width: 83%;
 }
