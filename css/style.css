@@ -37,7 +37,7 @@ body {
 
 .personal__details {
   background-color: var(--white);
-  margin: 10% 10% 42px 10%;
+  margin: 70px 10% 42px 10%;
   display: flex;
   border-radius: var(--border-radius);
 }
