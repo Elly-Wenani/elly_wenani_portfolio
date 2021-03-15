@@ -271,3 +271,44 @@ body {
 .mongodb {
   width: 83%;
 }
+
+/* Media for skills section */
+
+@media screen and (max-width: 900px) {
+  .left__container {
+    width: 40%;
+  }
+
+  .right__container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .centre__container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .centre__container {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .centre__container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .left__container {
+    width: 100%;
+  }
+
+  .right__container {
+    width: 100%;
+  }
+}
