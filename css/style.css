@@ -132,8 +132,8 @@ body {
   line-height: 22px;
 }
 
-/* Media below 640 */
-@media screen and (max-width: 640px) {
+/* Media below 639 */
+@media screen and (max-width: 639px) {
   .personal__details {
     margin: 10% 4% 30px 4%;
     display: block;
@@ -178,6 +178,7 @@ body {
 /* Centre section */
 
 .centre__container {
+  display: flex;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -272,6 +273,31 @@ body {
   width: 83%;
 }
 
+/* Projects section */
+
+.right__container {
+  width: 65%;
+  margin-left: 32px;
+}
+
+.number__of__projects {
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  height: 66px;
+}
+
+.number__of__projects h3 {
+  height: 22px;
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 /* Media for skills section */
 
 @media screen and (max-width: 900px) {
@@ -298,8 +324,9 @@ body {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 639px) {
   .centre__container {
+    display: block;
     margin-left: 4%;
     margin-right: 4%;
   }
@@ -310,5 +337,14 @@ body {
 
   .right__container {
     width: 100%;
+  }
+}
+
+/* Media for projects */
+
+@media screen and (max-width: 639px) {
+  .right__container {
+    width: 100%;
+    margin: 32px 0% 32px 0%;
   }
 }
