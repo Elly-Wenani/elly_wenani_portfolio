@@ -42,16 +42,22 @@ body {
   border-radius: var(--border-radius);
 }
 
-.profile__picture {
-  width: 25%;
+.profile__pic {
+  width: 30%;
+  padding: 17px;
+}
+
+.profile__pic img {
+  width: 100%;
+  border-radius: 12px;
 }
 
 .profile__details {
-  width: 75%;
+  width: 70%;
 }
 
 @media screen and (max-width: 900px) {
-  .profile__picture {
+  .profile__pic {
     width: 30%;
   }
 
@@ -70,12 +76,6 @@ body {
   .personal__details {
     margin: 10% 1% 43px 1%;
   }
-}
-
-.profile__picture img {
-  padding: 22px 0 41px 15px;
-  width: 100%;
-  border-radius: var(--border-radius);
 }
 
 .names__contatcs {
@@ -139,7 +139,7 @@ body {
     display: block;
   }
 
-  .profile__picture {
+  .profile__pic {
     width: 100%;
   }
 
@@ -147,10 +147,9 @@ body {
     width: 100%;
   }
 
-  .profile__picture img {
-    padding: 22px 15px 15px 15px;
+  .profile__pic img {
+    /* padding: 22px 15px 15px 15px; */
     width: 100%;
-    border-radius: var(--border-radius);
   }
 
   .names__contatcs {
@@ -296,6 +295,101 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+}
+
+.project__block {
+  display: flex;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  margin-top: 16px;
+  margin-bottom: 36px;
+  padding: 23px;
+}
+
+.left__image__container {
+  width: 40%;
+}
+
+.right__text__container {
+  padding-left: 26px;
+  width: 60%;
+}
+
+.left__image__container img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.tag {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.tag h3 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 12px;
+  color: var(--gray__head__color);
+}
+
+.project__name h3 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 18px;
+  color: var(--black__two);
+}
+
+.project__description {
+  padding-bottom: 25px;
+}
+
+.project__description p {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray__paragraph_color);
+}
+
+.project__buttons {
+  display: flex;
+}
+
+#btn__demo {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--white);
+  background-color: var(--blue__color);
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-color: var(--blue__color);
+  padding: 6px 18px;
+  margin-right: 14px;
+}
+
+#btn__code {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--blue__color);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-color: var(--blue__color);
+  padding: 6px 18px;
+  margin-right: 14px;
 }
 
 /* Media for skills section */
