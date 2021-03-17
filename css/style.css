@@ -366,7 +366,6 @@ body {
   background-color: var(--white);
   border-radius: var(--border-radius);
   padding: 22px;
-  margin-bottom: 32px;
 }
 
 .hobbies__pc h2 {
@@ -650,7 +649,6 @@ body {
     background-color: var(--white);
     border-radius: var(--border-radius);
     padding: 22px;
-    margin-bottom: 32px;
   }
 
   .hobbies__mob h2 {
@@ -729,4 +727,30 @@ body {
     height: 40vh;
     border-radius: var(--border-radius);
   }
+}
+
+/* Footer section */
+
+footer {
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.created-by a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.created-by p {
+  color: gray;
+  margin-bottom: 24px;
 }
