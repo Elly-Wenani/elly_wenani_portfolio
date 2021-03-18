@@ -2,9 +2,9 @@
 
 
 ## Screenshot
-![Elly Wenani Portfolio](https://user-images.githubusercontent.com/49924816/111594510-349a1480-87dc-11eb-974f-44f5a6fa8204.png)
+![Elly Wenani](https://user-images.githubusercontent.com/49924816/111625973-80f64c00-87fe-11eb-9f0b-5b38b718146e.png)
 
-You can view the live demo of the completed project [here](ellywenani.onrender.com)
+You can view the live demo of the completed project [here](https://ellywenani.onrender.com)
 
 ## Contact
 
