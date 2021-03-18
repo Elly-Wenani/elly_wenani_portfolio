@@ -505,7 +505,6 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: var(--white);
   background-color: var(--blue__color);
   border-radius: var(--border-radius);
   border-style: solid;
@@ -520,13 +519,22 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: var(--blue__color);
   background-color: var(--white);
   border-radius: var(--border-radius);
   border-style: solid;
   border-color: var(--blue__color);
   padding: 6px 18px;
   margin-right: 14px;
+}
+
+#btn__demo a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+#btn__code a {
+  text-decoration: none;
+  color: var(--blue__color);
 }
 
 /* Blog section */
